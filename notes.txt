@@ -31,7 +31,7 @@ git checkout id di un commit
 
 git branch -b newnome "id commit"   crea un branch a partire da un commit (id commit)
 git branch -d                       cancella i rami
-
+git merge nomebranch (mergia nome branch nel branch corrente)
 
 
 Normale Flusso di lavoro
