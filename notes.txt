@@ -1,3 +1,5 @@
+# Git funziona sui file vuoti e non con cartelle vuote. 
+
 # CONFIGURA 
 git config --global user.name "mnarizzano"
 git config --global user.email "mnarizzano@gmail.com"
@@ -8,3 +10,44 @@ git add primo # crea nuovo file
 git commit -m "Nuovo file  " # committano una modifica 
 
 git log
+
+modifica file
+
+(file tracciati ? file in staging?)
+
+git commit -am "Modifica File" (metto in staging e poi in 
+
+git diff (fa vedere le differenze di quello che si è fatto.)
+
+File in staging
+File tracciati
+File creati ma non dentro il staging
+
+
+git branch {per vedere i branch}
+git branch "nome" (crea un nuovo branch)
+git checkout nome mi porta su un branch diverso
+git checkout id di un commit
+
+git branch -b newnome "id commit"   crea un branch a partire da un commit (id commit)
+git branch -d                       cancella i rami
+
+
+
+Normale Flusso di lavoro
+
+- creo file
+- git add file (metto in staging)
+- git commit -m (file anche tracciati)
+- Modifico il file (file tracciato)
+- Devo committare (due modi)
+   - git add file (lo rimetto in staging)
+     git commit -m (lo committo)
+   - git commit -a (committo tutti i file tracciati in staging)
+
+
+
+
+
+
+
