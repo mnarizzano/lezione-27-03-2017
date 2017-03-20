@@ -1,0 +1,10 @@
+# CONFIGURA 
+git config --global user.name "mnarizzano"
+git config --global user.email "mnarizzano@gmail.com"
+
+git init # Nuovo repository
+touch primo # crea nuovo file
+git add primo # crea nuovo file
+git commit -m "Nuovo file  " # committano una modifica 
+
+git log
