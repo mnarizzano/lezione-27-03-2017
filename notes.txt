@@ -95,3 +95,6 @@ git commit -m "Add line to secondo See #1"
 
 Per chiuderlo
 git commit -m "Add line to Secondo che ha fatto Fix #1"
+
+git pull origin master (per risolvere un conflitto)
+
