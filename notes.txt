@@ -1,3 +1,5 @@
+#### LEZIONE DEL 20 Marzo 
+
 # Git funziona sui file vuoti e non con cartelle vuote. 
 
 # CONFIGURA 
@@ -9,7 +11,7 @@ touch primo # crea nuovo file
 git add primo # crea nuovo file
 git commit -m "Nuovo file  " # committano una modifica 
 
-git log
+git log // fa vedere la storia del bracnh
 
 modifica file
 
@@ -34,6 +36,8 @@ git branch -d                       cancella i rami
 git merge nomebranch (mergia nome branch nel branch corrente)
 
 
+
+
 Normale Flusso di lavoro
 
 - creo file
@@ -46,8 +50,39 @@ Normale Flusso di lavoro
    - git commit -a (committo tutti i file tracciati in staging)
 
 
+  "Feature branch workflow"
+- da un branch (master ad esempio) fai un branch nuovo
+- Salti al branch nuovo
+- fai le modifiche nel branch nuovo
+- fai commit delle modifiche sul branch nuovo
+- tornare nel branch vecchio
+- fai branch
+- Se c'è un conflito si risolve e poi si deve fare add del nuovo file.
 
 
 
+Creare un alias
 
+git config alias."Nome dell'alias" "comando da aliasare"
+git config alias.s "status -s"
 
+#### LEZIONE DEL 27 Marzo 
+
+#TAG -- Per fare una release
+git tag <nome tag (ad esempio 1.0-pre-release) (major.minor.fix = convezione di ruby)>
+
+# creare un 
+
+collegare il repository remoto a quello corrente
+
+git remote add origin https://github.com/mnarizzano/lezione-27-03-2017.git (nome https del nuovo repository)
+git remote -v
+
+> origin	https://github.com/mnarizzano/lezione-27-03-2017.git (fetch) (recupero dati da remoto) (stesso concetto di pull)
+> origin	https://github.com/mnarizzano/lezione-27-03-2017.git (push) (mandare i dati)
+
+git push origin master
+
+# Abbiamo parlato delle Issues
+# Abbiamo parlato delle Milestone
+# Issues attached a una milestone
