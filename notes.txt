@@ -86,3 +86,8 @@ git push origin master
 # Abbiamo parlato delle Issues
 # Abbiamo parlato delle Milestone
 # Issues attached a una milestone
+
+Per fare reference a un Issue uso "See #N" N numero issue
+git commit -m "Add line to secondo See #1"
+
+git commit -m "Add line to secondo See #1"
