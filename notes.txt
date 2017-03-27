@@ -83,6 +83,9 @@ git remote -v
 
 git push origin master
 
+
+git push -u origin master (poi basta fare gith push)
+
 # Abbiamo parlato delle Issues
 # Abbiamo parlato delle Milestone
 # Issues attached a una milestone
@@ -90,4 +93,5 @@ git push origin master
 Per fare reference a un Issue uso "See #N" N numero issue
 git commit -m "Add line to secondo See #1"
 
-git commit -m "Add line to secondo See #1"
+Per chiuderlo
+git commit -m "Add line to Secondo che ha fatto Fix #1"
